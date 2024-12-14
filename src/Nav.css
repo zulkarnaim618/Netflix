@@ -1,0 +1,91 @@
+.nav-div {
+  position: fixed;
+  height:70px;
+  width:100%;
+  z-index: 2;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav-link-div {
+  z-index: 2;
+  position: fixed;
+  top:20px;
+  left:200px;
+  width:300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-search {
+  z-index: 2;
+  position: fixed;
+  top:20px;
+  right:200px;
+}
+
+.search-input {
+  background: transparent;
+  color:white;
+  border-radius: 0;
+  border:1px solid white;
+  max-width:160px;
+  height:25px;
+  padding:2px 10px;
+
+}
+
+.nav-link-button {
+  padding: 5px;
+  background: transparent;
+  border:none;
+  color:white;
+  font-size:14px;
+  font-weight: 500;
+  cursor:pointer;
+}
+
+.selected {
+  font-weight: 600;
+  cursor:default;
+  pointer-events: none;
+}
+
+.nav-div-content-gradient {
+  height:100%;
+  width: 100%;
+  z-index: 1;
+  background: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,.4) 50%,
+    rgba(0,0,0,0) 100%
+    );
+}
+
+.nav-black {
+  background: black;
+}
+
+.nav-div-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-netflix-img {
+  position: fixed;
+  left:0;
+  top:0;
+  width: 100px;
+  object-fit:contain;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.nav-avatar-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

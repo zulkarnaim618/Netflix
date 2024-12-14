@@ -1,0 +1,246 @@
+.dashboard-body-div {
+  width: 100%;
+  background: white;
+  position: relative;
+  margin-top:100px;
+}
+
+.side-bar {
+  background: white;
+  position: fixed;
+  width:250px;
+  left:0;
+  min-height:645px;
+  padding: 20px 0;
+  border-right:2px solid black;
+  overflow-y: scroll;
+}
+
+.side-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.side-bar-single-div {
+  background: transparent;
+  width: 100%;
+  cursor:pointer;
+  padding: 10px 0;
+  font-size:16px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.side-bar-single-div:hover {
+  background: black;
+  color:white;
+}
+
+.clicked {
+  background:black;
+  font-weight: 500;
+  cursor:default;
+  pointer-events: none;
+  color:white;
+}
+
+.add-body-div {
+  position:absolute;
+  right:0;
+  left:252px;
+  height:600px;
+  min-height:645px;
+}
+
+.add-div {
+  width:100%;
+  height:100%;
+  font-size: 18px;
+}
+
+.add-div-hidden {
+  display:none;
+}
+
+.add-button {
+  cursor:pointer;
+  padding:5px 10px;
+  font-size: 16px;
+  background: green;
+  border-radius: 8px;
+  border:none;
+  color:white;
+  min-width: 60px;
+  height:30px;
+  margin-top:20px;
+  position: absolute;
+  right:0;
+  bottom:50px;
+}
+
+form h2 {
+  text-align: center;
+}
+
+
+.input-form {
+  margin-top:20px;
+  display:inline-block;
+  position: relative;
+  padding-bottom: 100px;
+  text-align: right;
+}
+
+.input-field {
+  width:220px;
+  height:20px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;
+  border:1px solid black;
+  padding:5px 10px;
+  margin-top:15px;
+}
+
+.select-field {
+  width:242px;
+  height:32px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;
+  border:1px solid black;
+  padding:5px 10px;
+  margin-top:15px;
+}
+
+.input-checkbox {
+  height:15px;
+  width:15px;
+  margin-top:15px;
+}
+
+.checkbox-delete-label {
+  margin-left:10px;
+  margin-right:160px;
+  position: relative;
+  bottom:1px;
+}
+
+.add-msg {
+  color:green;
+  font-size: 16px;
+  position: absolute;
+  left:5px;
+  bottom: 55px;
+}
+
+.not-in-list-div {
+  font-size: 14px;
+  color:grey;
+  text-align: left;
+  margin-top:2px;
+  margin-bottom: 0;
+  width:240px;
+  display: inline-block;
+}
+
+.clickable {
+  color:black;
+  cursor:pointer;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.text-field {
+  min-width:220px;
+  min-height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;
+  border:1px solid black;
+  padding:5px 10px;
+  margin-top:15px;
+  resize:none;
+}
+
+.date-field {
+  margin-top:0;
+}
+
+.name-span {
+  margin-right:10px;
+}
+
+.date-label {
+  display: inline-block;
+  margin-top:15px;
+  font-size: 14px;
+  width:150px;
+  text-align: left;
+  padding-left:10px;
+  position: relative;
+  right:40px;
+}
+
+.checkbox-field {
+  font-size: 16px;
+  background: transparent;
+  border:1px solid black;
+  height:15px;
+  width:15px;
+  margin-top:15px;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  margin-right:35px;
+  margin-left: 5px;
+  position: relative;
+  bottom:2px;
+}
+
+.content-type-hide {
+  display:none;
+}
+
+.left-form {
+  position: absolute;
+  right:750px;
+
+}
+
+.description-span {
+  position: relative;
+  bottom:25px;
+}
+
+.right-form {
+  position: absolute;
+  right:200px;
+}
+
+.selected-div {
+  display:inline-block;
+}
+
+.selected-none {
+  display:none;
+}
+
+.stat-container {
+  padding:50px 0;
+}
+
+
+.stat-row-div {
+  position: relative;
+}
+
+.row-div {
+  display:inline-block;
+  margin:50px 0;
+  width:50%;
+}

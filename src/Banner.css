@@ -1,0 +1,108 @@
+.banner {
+  position: relative;
+  object-fit: contain;
+  height:750px;
+  background: #141414;
+  text-align: left;
+}
+
+.banner-video {
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.banner-content {
+  position: absolute;
+  left:70px;
+  top:220px;
+  display: inline-block;
+  right:70px;
+}
+
+.banner-title {
+  font-size:3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  color: white;
+}
+
+.banner-description {
+  font-size:18px;
+  font-weight: 600;
+  color: white;
+  width:500px;
+}
+
+.banner-button {
+  cursor: pointer;
+  background-color: black;
+  color:white;
+  border:none;
+  outline: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right:10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.banner-mute-button {
+  cursor: pointer;
+  background: rgb(50,50,50,.5);
+  color:white;
+  border:none;
+  outline: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  position: absolute;
+  right:0;
+}
+
+.banner-mute-button:hover {
+  background: rgb(50,50,50,0.3);
+  transition: all 0.2s;
+}
+
+.play {
+  background: rgb(255,255,255,1);
+  color:black;
+}
+
+.play:hover {
+  background: rgb(255,255,255,.8);
+  transition: all 0.2s;
+}
+
+.more-info {
+  background: rgb(50,50,50,.5);
+  color:white;
+}
+
+.more-info:hover {
+  background: rgb(50,50,50,0.3);
+  transition: all 0.2s;
+}
+
+.banner-bottom-gradient {
+  position: absolute;
+  bottom: -1px;
+  height:150px;
+  width: 100%;
+  z-index: 1;
+  background: transparent;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(20,20,20,0.4),
+    rgba(20,20,20,1)
+    );
+}

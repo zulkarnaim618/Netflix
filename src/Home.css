@@ -1,0 +1,380 @@
+.homeScreen-top-container {
+  background: url("image/homeScreen_background.jpg") center no-repeat;
+  background-size: cover;
+  height:750px;
+}
+
+.netflix-logo {
+  position: absolute;
+  left:0;
+  width: 180px;
+  object-fit:contain;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.container {
+  background-color:black;
+  color: white;
+  border-top: 5px solid #222222;
+}
+
+
+.home-footer {
+  background-color:black;
+  border-top: 5px solid #222222;
+  height:300px;
+  vertical-align: middle;
+}
+
+.home-footer-content {
+  color: #444444;
+}
+
+.signup-top-container {
+  background-color:white;
+  height:100px;
+  border-bottom: 1px solid #222222;
+}
+
+.signup-body-container {
+  padding: 50px;
+  text-align: left;
+}
+
+.subscribe-body-container {
+  background-color:white;
+  padding: 50px;
+  text-align: left;
+  margin-top:100px;
+}
+
+#signup-email-error {
+  color:red;
+  padding-left: 20px;
+}
+
+#login-error {
+  color:red;
+  margin-bottom: 20px;
+}
+
+.signup-form-div {
+  margin: 0 auto;
+  max-width: 600px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 50px 100px;
+  position: relative;
+}
+
+
+
+.signup-form-div h1 {
+  font-weight: 600;
+}
+
+.signup-input-field {
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  width:250px;
+}
+
+.subscribe-input-field {
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  width:250px;
+}
+
+.signup-form-div select {
+  height: 43px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  width:282px;
+}
+
+
+.signup-label {
+  font-size: 12px;
+  color: black;
+  padding-left: 10px;
+  position: relative;
+  top:12px;
+}
+
+.signup-radio {
+  border: 1px solid gray;
+  position: relative;
+  top:5px;
+}
+
+.signup-gender-div {
+  display: inline-block;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  width:250px;
+  vertical-align: center;
+}
+
+.subscribe-radio-div {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right:20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 20px 20px;
+  width:120px;
+}
+
+.subscribe-radio-label {
+  display:inline-block;
+  padding:5px 0;
+}
+
+.subscribe-radio {
+  position: relative;
+  left: 30px;
+}
+
+.signup-gender-radio-label {
+  padding-left: 10px;
+  padding-right: 50px;
+  position: relative;
+  top:3.5px;
+}
+
+.subscribe-top-div {
+  position: relative;
+  top:0;
+  width: 100%;
+  height:100px;
+  background-color: black;
+}
+
+.signup-login-link {
+  color:blue;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top:30px;
+}
+
+.signup-login-link:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.signup-create-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color:#ffffff;
+  background-color: green;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  right:100px;
+  bottom:40px;
+}
+
+.subscribe-choose-button {
+  margin-top: 30px;
+  margin-left:550px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color:#ffffff;
+  background-color: green;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.signup-footer {
+  background-color:#eeeeee;
+  border-top: 1px solid #222222;
+  height:300px;
+  vertical-align: middle;
+}
+
+.signup-footer-content {
+  color: #111111;
+}
+
+.footer-content-div {
+  display: inline-block;
+  text-align: left;
+  width:200px;
+  margin:40px;
+}
+
+.container-text {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  max-width:600px;
+  margin:40px;
+  vertical-align: middle;
+}
+
+.container-text h1 {
+  font-size:3.8rem;
+}
+
+.container-text h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.container-img-div {
+  display: inline-block;
+  margin: 50px;
+  vertical-align: middle;
+}
+
+.container-img {
+  max-width:600px;
+}
+
+.login-form-div {
+  position: absolute;
+  top: 20%;
+  left:0;
+  right:0;
+  color:white;
+  max-width: 305px;
+  padding:70px;
+  margin:0 auto;
+  background: rgba(0,0,0, 0.80);
+  border-radius: 5px;
+}
+
+.login-form-div form {
+  display: grid;
+  flex-direction: column;
+}
+
+.login-form-div form input {
+  outline-width: 0;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+
+.login-form-div form h4 {
+  text-align: left;
+  margin-top: 30px;
+  color:gray;
+  font-weight: 500;
+}
+
+.login-signup-link {
+  color:white;
+}
+
+.login-signup-link:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.login-form-div form h1 {
+  margin-bottom: 25px;
+}
+
+.login-form-div form button {
+  padding: 15px 20px;
+  font-size: 1rem;
+  color:#ffffff;
+  border-radius: 5px;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.homeScreen-gradient {
+  height:100%;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0,0,0,0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0.8) 100%
+    );
+}
+
+.homeScreen-body h1 {
+  font-size:3.8rem;
+  margin-bottom: 20px;
+}
+
+.homeScreen-body h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.homeScreen-body h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.homeScreen-body {
+  position: absolute;
+  top: 30%;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index:1;
+  color: #ffffff;
+  padding: 0px;
+}
+
+.login-button {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color:#ffffff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.homeScreen-getstarted-button {
+  padding: 10px 20px;
+  font-size: 2rem;
+  color:#ffffff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,436 @@
+.content-details-banner {
+  position: relative;
+  object-fit: contain;
+  height:450px;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px 10px 0 0;
+}
+
+.content-details-banner-content {
+  position: absolute;
+  left:70px;
+  bottom:70px;
+  width:100%;
+  display: inline-block;
+  z-index: 2;
+}
+
+.content-details-banner-mute-button {
+  cursor: pointer;
+  background: rgb(50,50,50,.5);
+  color:white;
+  border:none;
+  outline: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  position: absolute;
+  right:100px;
+}
+
+.content-details-banner-mute-button:hover {
+  background: rgb(50,50,50,0.3);
+  transition: all 0.2s;
+}
+
+.content-details-banner-video {
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.content-details-info {
+  color:white;
+  border:none;
+  padding: 0 50px;
+  margin:0;
+  margin-bottom: 20px;
+}
+
+.content-details-info h5 {
+  color:white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cast-div {
+  margin-top:30px;
+  padding: 0 50px;
+  color:white;
+}
+
+
+
+.content-container {
+  padding-bottom: 80px;
+}
+
+.person {
+  background: #242424;
+  width:145px;
+  min-height:180px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border:2px solid transparent;
+}
+
+.person:hover {
+  cursor:pointer;
+  border:2px solid white;
+}
+
+.person-image {
+  width:100%;
+  height:120px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.person-name {
+  color:white;
+  font-size: 14px;
+  font-weight: 450;
+  padding: 5px;
+
+}
+
+.person-role {
+  color:gray;
+  padding:5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.person-details-div {
+  position: absolute;
+  top:30px;
+  bottom:20px;
+  left:50%;
+  transform: translate(-50%, 0%);
+  background: #141414;
+  z-index: 100;
+  width:630px;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.person-details {
+  max-height: 100%;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+.person-details::-webkit-scrollbar {
+  display: none;
+}
+
+.person-top-div {
+  height:350px;
+  background: grey;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.person-cover-image {
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.person-profile-image-div {
+  position: absolute;
+  bottom: -100px;
+  left:50px;
+  border: 2px solid white;
+  padding: 2px;
+  height:150px;
+  width:140px;
+}
+
+.person-profile-image {
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.person-name-div {
+  height:40px;
+  width:300px;
+  margin-left: 200px;
+  padding: 20px;
+  margin-top:20px;
+}
+
+.person-name-div h1 {
+  margin:0;
+  color:white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.person-info-div {
+  padding:0 50px;
+}
+
+.person-info-div p {
+  color:white;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.episodes-div {
+  color:white;
+  padding:0 50px;
+  margin-top:50px;
+  position: relative;
+}
+
+.season-dropdown {
+  position: absolute;
+  right:50px;
+  top:5px;
+  background: transparent;
+  color:white;
+  font-size: 18px;
+  padding:10px 20px;
+  border-radius: 2px;
+  border:1px solid #dddddd;
+}
+
+.season-dropdown-option {
+  background: #141414;
+  padding:10px 20px;
+}
+
+.episode-content {
+}
+
+.single-episode {
+  height:85px;
+  border-radius: 5px;
+  border-bottom: 1px solid #444444;
+  padding: 20px 50px 20px 20px;
+}
+
+.single-episode:hover {
+  background: #242424;
+}
+
+.single-episode table {
+  height:100%;
+  cursor:pointer;
+}
+
+
+.episode-number {
+  width:45px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.episode-number h1 {
+  margin:0;
+}
+
+.episode-thumbnail {
+  width:140px;
+}
+
+.episode-thumbnail-image {
+  width:100%;
+  height:74px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.episode-details {
+  width:500px;
+  padding-left:20px;
+  position:relative;
+}
+
+.episode-details h5{
+  font-size:18px;
+  margin:0;
+}
+
+.episode-details p {
+  margin:0;
+  margin-top:5px;
+  text-align: justify;
+  font-size:14px;
+}
+
+.episode-duration {
+  position: absolute;
+  top:5px;
+  right:0;
+}
+
+.hide {
+  display: none;
+}
+
+.season-title {
+
+}
+
+.awards-container {
+  color:white;
+}
+
+.single-award {
+  height:75px;
+  border-bottom: 1px solid #444444;
+  position: relative;
+  margin-top:20px;
+}
+
+.single-award h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin:0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.single-award span {
+}
+
+.award-for:hover {
+  color:#cccccc;
+  cursor: pointer;
+}
+
+.award-issue {
+  position: absolute;
+  right:0;
+
+}
+
+.play-div {
+  position: absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background: #141414;
+  z-index: 100;
+  border-radius: 0px;
+  background: white;
+}
+
+.review-div {
+  position: absolute;
+  left:50%;
+  top:50%;
+  width:700px;
+  transform: translate(-50%, -50%);
+  background: #141414;
+  z-index: 100;
+  border-radius: 10px;
+  text-align: center;
+  color:white;
+  padding-bottom: 30px;
+}
+
+.review-div h1 {
+  margin-top:50px;
+  font-size: 40px;
+  padding:0 20px;
+  margin-bottom: 0;
+}
+
+.select-star {
+  color:red;
+  font-size: 20px;
+}
+
+.select-star-hide {
+  visibility: hidden;
+}
+
+.review-star-div {
+  padding: 0 20px;
+  margin-top:0px;
+  margin-bottom: 20px;
+}
+
+.review-star {
+  font-size: 60px;
+  color:white;
+  margin: 0 10px;
+}
+
+.review-star:hover {
+  cursor:pointer;
+  color:#bbbbbb;
+}
+
+.review-submit-button {
+  background: transparent;
+  font-size: 18px;
+  padding: 5px 10px;
+  color:white;
+  border:1px solid white;
+  border-radius: 15px;
+}
+
+
+
+.review-submit-button:hover {
+  border:1px solid #bbbbbb;
+  cursor:pointer;
+
+}
+
+.rating-count {
+  color:#bbbbbb;
+}
+
+.play-top-gradient {
+  position: absolute;
+  top:0;
+  height:100px;
+  width: 100%;
+  background: transparent;
+  color:transparent;
+}
+
+.play-top-gradient:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1) 0,
+    rgba(0,0,0,.5) 60%,
+    rgba(0,0,0,.1) 85%,
+    rgba(0,0,0,0) 100%
+    );
+  color:white;
+}
+
+.play-title-div {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.next-button {
+  position: absolute;
+  right:120px;
+  bottom: 100px;
+  visibility: hidden;
+}
+
+#next-button {
+  right:80px;
+}

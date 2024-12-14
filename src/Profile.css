@@ -1,0 +1,208 @@
+.profile-top-div {
+  position: fixed;
+  top:0;
+  width: 100%;
+  height:100px;
+  background-color:#141414;
+}
+
+.profile-top-div-gradient {
+  height:100%;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0,0,0,0.4);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1) 0,
+    rgba(10,10,10,.8) 50%,
+    rgba(20,20,20,1) 100%
+    );
+}
+
+.profile-body-div {
+  background-color: #141414;
+  margin-top:100px;
+  min-height:645px;
+}
+
+.profile-body-div-hide {
+  display: none;
+}
+
+
+.profile-body-form {
+  position: relative;
+  top:10%;
+  width:1000px;
+  margin:0 auto;
+  padding-top: 50px;
+}
+
+.profile-container {
+  min-height:200px;
+
+  padding:50px;
+}
+
+.profile-body-form h1 {
+  margin:0;
+  font-size: 50px;
+  color:white;
+  font-weight: 600;
+}
+
+.profile-top-netflix-logo {
+  position: absolute;
+  left:0;
+  width: 100px;
+  object-fit:contain;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.profile-card {
+  display: inline-block;
+  width: 160px;
+  padding: 20px;
+}
+
+.profile-card-container {
+
+}
+
+.profile-avatar:hover {
+  margin:0;
+  border:2px solid gray;
+}
+
+.profile-card h4 {
+  color:gray;
+  margin:0;
+  font-weight: 400;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.profile-avatar {
+  margin:2px;
+  width:156px;
+  border-radius:10px;
+}
+
+.pin-popup {
+  display: none;
+}
+
+.pin-popup-show {
+  display: block;
+  height: 645px;
+  width: 100%;
+  position: absolute;
+  top:100px;
+
+  background-color:#141414;
+}
+
+.add-profile-popup {
+  display: none;
+}
+
+.add-profile-popup-show {
+  display: block;
+  height: 645px;
+  width: 100%;
+  position: absolute;
+  top:100px;
+  background-color:#141414;
+}
+
+.pin-popup h1 {
+  color:white;
+  font-size: 40px;
+  margin-top:100px;
+}
+
+.add-profile-popup-container {
+  margin:0 auto;
+  text-align: left;
+  width:700px;
+  position: relative;
+  bottom:50px;
+}
+
+.add-profile-popup-body {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+
+.add-profile-popup-container h4 {
+  color:white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom:0px;
+}
+
+.profile-create-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color:#ffffff;
+  background-color: green;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top:20px;
+  margin-left:600px;
+}
+
+.add-profile-popup-container input {
+  height:100px;
+  width:100px;
+  margin: 5px 20px 10px 0;
+  font-size: 60px;
+  text-align: center;
+}
+
+#profileName {
+  position: relative;
+  left:50px;
+  bottom:70px;
+  height:40px;
+  width:300px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin:0;
+  text-align: left;
+}
+
+
+.add-profile-popup h1 {
+  color:white;
+  font-size: 40px;
+  margin-top:100px;
+}
+
+.pin-popup input {
+  height:100px;
+  width:100px;
+  margin: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.pin-popup-button {
+  position: absolute;
+  right:20px;
+  top:20px;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+  border:none;
+}
+
+.pin-popup-button:hover {
+  cursor:pointer;
+}
